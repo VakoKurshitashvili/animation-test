@@ -236,3 +236,44 @@
     100%{left: 505px; top: 1010px ; opacity: 1;}
     
 }
+
+
+.bullet7{
+    opacity: 0;
+    position: absolute;
+    width: 10px;
+    top: 370px;
+    left: 475px;
+    transform: rotate(270deg);
+    animation: bullet7  2s 1 9s
+    
+}
+
+@keyframes bullet7 {
+
+    0% {left: 475px; top: 370px; width: 10px; opacity: 1;}
+    
+
+
+    /* 75% {left: 505px; top:640px; width: 50px; opacity: 1;} */
+
+    100%{left: 505px; top: 1010px ; width: 70px; opacity: 1;}
+    
+}
+
+
+.blood4{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    
+    width: 1000px;
+    animation: blood3 3s 1 10s
+    
+
+}
+@keyframes blood4 {
+    0% { opacity: 1;}
+    100%{ opacity: 0;}
+
+}
